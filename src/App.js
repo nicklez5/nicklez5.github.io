@@ -100,7 +100,7 @@ function NavLink({ href, children }) {
 }
 export default function Portfolio() {
   return (
-    <div className="min-h-screen bg-center from-white to-slate-50 dark:from-slate-850 dark:to-slate-900 text-slate-900 dark:text-slate-100"  style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/thumb-1920-1027689.png)` }}>
+    <div className="min-h-screen bg-center from-white to-slate-50 dark:from-slate-850 dark:to-slate-900 text-slate-900 dark:text-slate-100"  style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/thumb-1920-1293302.jpg)` }}>
       {/* Header */}
       <header className="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-white/60 dark:supports-[backdrop-filter]:bg-slate-950/60 border-b border-slate-200/60 dark:border-slate-800/60">
         <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
