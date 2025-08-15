@@ -100,7 +100,7 @@ function NavLink({ href, children }) {
 }
 export default function Portfolio() {
   return (
-    <div className="min-h-screen bg-center from-white to-slate-50 dark:from-slate-850 dark:to-slate-900 text-slate-900 dark:text-slate-100"  style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/thumb-1920-1293302.jpg)` }}>
+    <div className="min-h-screen bg-cover from-white to-slate-50 dark:from-slate-850 dark:to-slate-900 text-slate-900 dark:text-slate-100"  style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/thumb-1920-1293302.jpg)` }}>
       {/* Header */}
       <header className="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-white/60 dark:supports-[backdrop-filter]:bg-slate-950/60 border-b border-slate-200/60 dark:border-slate-800/60">
         <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
@@ -130,29 +130,29 @@ export default function Portfolio() {
         <section className="py-16 sm:py-24">
           <div className="grid md:grid-cols-12 gap-8 items-center">
             <div className="md:col-span-7">
-              <h1 className="text-3xl sm:text-5xl font-extrabold leading-tight ">
+              <h1 className="text-3xl sm:text-5xl font-extrabold leading-tight text-white ">
                 Hi, I'm {profile.name}.<br />
                 <span className="opacity-80">{profile.title}</span>
               </h1>
-              <p className="mt-5 text-base sm:text-lg opacity-90 max-w-2xl ">
+              <p className="mt-5 text-base sm:text-lg opacity-100 max-w-2xl text-white font-semibold">
                 {profile.summary}
               </p>
-              <div className="mt-6 flex flex-wrap gap-3">
-                <a className="rounded-xl border px-4 py-2 text-sm font-medium hover:shadow" href="#projects">
+              <div className="mt-6 flex flex-wrap gap-3 text-white ">
+                <a className="rounded-xl border px-4 py-2 text-md font-medium hover:shadow" href="#projects">
                   See my projects
                 </a>
                 {profile.links.github && (
-                  <a className="rounded-xl border px-4 py-2 text-sm font-medium hover:shadow" href={profile.links.github} target="_blank" rel="noreferrer">
+                  <a className="rounded-xl border px-4 py-2 text-md font-medium hover:shadow" href={profile.links.github} target="_blank" rel="noreferrer">
                     GitHub
                   </a>
                 )}
                 {profile.links.linkedin && (
-                  <a className="rounded-xl border px-4 py-2 text-sm font-medium hover:shadow" href={profile.links.linkedin} target="_blank" rel="noreferrer">
+                  <a className="rounded-xl border px-4 py-2 text-md font-medium hover:shadow" href={profile.links.linkedin} target="_blank" rel="noreferrer">
                     LinkedIn
                   </a>
                 )}
                 {profile.links.resumeUrl && (
-                  <a className="rounded-xl border px-4 py-2 text-sm font-medium hover:shadow" href={profile.links.resumeUrl} target="_blank" rel="noreferrer">
+                  <a className="rounded-xl border px-4 py-2 text-md font-medium hover:shadow" href={profile.links.resumeUrl} target="_blank" rel="noreferrer">
                     Download Résumé
                   </a>
                 )}
@@ -222,13 +222,13 @@ export default function Portfolio() {
 
         {/* Experience */}
         <Section id="experience" title="Experience">
-          <ol className="relative border-s-l">
+          <ol className="relative border-s-l bg-inherit">
             {profile.experience.map((x, i) => (
               <li key={x.company + i} className="ms-6 py-4">
                 <span className="absolute -start-1.5 mt-2 h-3 w-3 rounded-full border bg-white dark:bg-slate-900"></span>
                 <div className="flex flex-wrap items-center gap-x-3">
                   <div className="font-semibold">{x.role}</div>
-                  <div className="opacity-70">@ {x.company}</div>
+                  <div className="opacity-100 text-lg ">@ {x.company}</div>
                   <div className="ms-auto text-sm opacity-70">{x.date}</div>
                 </div>
                 <ul className="mt-2 list-disc ps-5 text-sm opacity-90 space-y-1">
