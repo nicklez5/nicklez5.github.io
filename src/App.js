@@ -10,7 +10,7 @@ const profile = {
     github: "https://github.com/nicklez5",
     linkedin: "https://www.linkedin.com/in/jackson-lu-570726ab/",
     email: "jackson2k@yahoo.com",
-    resumeUrl: "https://nicklez5.github.io/resume/resume.pdf",
+    resumeUrl: "/resume/resume.pdf",
   },
   projects: [
     {
@@ -71,9 +71,9 @@ const profile = {
     },
   ],
   education: {
-    school: "University of California, Riverside",
-    degree: "B.S.",
-    date: "2020",
+    school: "University of California, Riverside", 
+    degree: "Bachelor Of Science in Computer Science",
+    date: "2018 -2020",
   },
 };
 function Section({ id, title, children }) {
@@ -114,6 +114,7 @@ export default function Portfolio() {
             <NavLink href="#skills">Skills</NavLink>
             <NavLink href="#experience">Experience</NavLink>
             <NavLink href="#about">About</NavLink>
+            <NavLink href="#education">Education</NavLink>
             <a
               className="ml-3 inline-flex items-center rounded-xl border px-3 py-2 text-sm font-medium hover:shadow"
               href={`mailto:${profile.links.email}`}
@@ -239,13 +240,26 @@ export default function Portfolio() {
             ))}
           </ol>
         </Section>
-
+        <Section id="education" title="Education">
+        <div className="rounded-2xl border p-6 bg-white/70 dark:bg-slate-900/60">
+          <div className="flex flex-wrap items-center gap-x-3">
+            <div className="font-semibold">{profile.education.school}</div>
+            <div className="opacity-70">{profile.education.degree}</div>
+            <div className="ms-auto text-sm opacity-70">{profile.education.date}</div>
+          </div>
+          {profile.education.highlights && (
+            <ul className="mt-2 list-disc ps-5 text-sm opacity-90 space-y-1">
+              {profile.education.highlights.map((h, i) => <li key={i}>{h}</li>)}
+            </ul>
+          )}
+        </div>
+      </Section>
         {/* About */}
         <Section id="about" title="About">
           <div className="rounded-2xl border p-6 bg-white/70 dark:bg-slate-900/60">
             <p className="opacity-90">
-              I'm a hands‑on builder who enjoys shipping end‑to‑end features: from clean APIs and data models to responsive UIs.
-              I value readable code, helpful tests, and thoughtful UX. Outside of coding, add a line about your interests or community work.
+              I'm a hands-on builder who enjoys shipping end-to-end features: from clean APIs and data models to responsive UIs.
+              I value readable code, helpful tests, and thoughtful UX. Outside of coding, I love rewatching old films, eating my clean prepped meals and playing tennis.
             </p>
           </div>
         </Section>
