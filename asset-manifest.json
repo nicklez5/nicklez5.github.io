@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.66081542.css",
+    "main.js": "/static/js/main.6770965a.js",
+    "static/js/453.8219f373.chunk.js": "/static/js/453.8219f373.chunk.js",
+    "static/media/background5.jpg": "/static/media/background5.f614d6f13155ff2e19f3.jpg",
+    "static/media/background.jpg": "/static/media/background.0244d9f68a6df83bb46c.jpg",
+    "static/media/background4.JPG": "/static/media/background4.8fc4c4349555106ac83d.JPG",
+    "static/media/background3.jpg": "/static/media/background3.170052b4a63bc83a5f18.jpg",
+    "static/media/background2.jpg": "/static/media/background2.b75f5181b18d177809ad.jpg",
+    "static/media/project3.png": "/static/media/project3.93f6a07faf32f31689ec.png",
+    "static/media/project2.jpg": "/static/media/project2.45e2786fe319def8d86c.jpg",
+    "static/media/bootstrap.png": "/static/media/bootstrap.d8411fac50fa7c6f73b2.png",
+    "static/media/react.png": "/static/media/react.d57c1411dda2a41560bd.png",
+    "static/media/nodejs.png": "/static/media/nodejs.e7eb9ad9f311a03edf26.png",
+    "static/media/project1.png": "/static/media/project1.ddaa924fb10e17d32c5e.png",
+    "static/media/vuejs.png": "/static/media/vuejs.0cf7da41a40e251ce611.png",
+    "static/media/python.png": "/static/media/python.033def8fdd635454ce6b.png",
+    "static/media/csharp.png": "/static/media/csharp.221dcba91bfe189e98c5.png",
+    "static/media/linkedin_icon.png": "/static/media/linkedin_icon.f916e9d7e699cadd309a.png",
+    "static/media/mongodb.png": "/static/media/mongodb.31ecd959b6a0e3da10d8.png",
+    "static/media/yahoo.png": "/static/media/yahoo.23eb61b23a75649cb926.png",
+    "static/media/javascript.webp": "/static/media/javascript.00fd0fae01e451c5460a.webp",
+    "static/media/html.png": "/static/media/html.cfb2ba4a6b1c3de295bc.png",
+    "static/media/java.webp": "/static/media/java.ad5ef14d30e872b0efb5.webp",
+    "static/media/css.png": "/static/media/css.4a6549b8c2b4cda8bb88.png",
+    "static/media/spring.svg": "/static/media/spring.5c62e7f4bbd6f07c0fd84d21ce9050ca.svg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/django.svg": "/static/media/django.b062878ade3e5d6fdd56c82c5a1ca0ca.svg",
+    "index.html": "/index.html",
+    "main.66081542.css.map": "/static/css/main.66081542.css.map",
+    "main.6770965a.js.map": "/static/js/main.6770965a.js.map",
+    "453.8219f373.chunk.js.map": "/static/js/453.8219f373.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66081542.css",
+    "static/js/main.6770965a.js"
+  ]
+}
