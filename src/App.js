@@ -193,7 +193,7 @@ function App() {
           </div>
 
         </section>
-        <section id="skills" title="Skills" style={{backgroundImage: `url(${BG_icon2})`}}>
+        <section id="skills" title="Skills" style={{backgroundImage: `url(${BG_icon1})`}}>
           <div className="container">
             <h1 class="text-success text-center fs-1 fw-bold text-decoration-underline ">My Skills</h1>
             <div class="mt-1 p-2" >
