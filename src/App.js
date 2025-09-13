@@ -4,9 +4,9 @@ import GH_icon from './icons/github_icon.png'
 import LI_icon from "./icons/linkedin_icon.png"
 import {Link} from "react-router-dom";
 import YH_icon from "./icons/yahoo.png"
-import project_icon from "./images/project1.png";
+import project_icon from "./images/project2_finish.png";
 import project_icon2 from "./images/project2.jpg";
-import project_icon3 from "./images/project3.png";
+import project_icon3 from "./images/project3_finish.png";
 import BG_icon5 from "./images/background5.jpg"
 import BG_icon4 from "./images/background4.JPG"
 import BG_icon3 from "./images/background3.jpg"
@@ -137,7 +137,7 @@ function App() {
             <a
               href="https://redditforum.onrender.com"
               className="d-block rounded overflow-hidden"
-              style={{ height: 325, width: 420 }}
+              style={{ height: 325, width: 475 }}
             >
               <img
                 src={project_icon}
@@ -156,13 +156,13 @@ function App() {
             <a
               href="https://canvasfrontend.onrender.com"
               className="d-block  animated_card rounded overflow-hidden"
-              style={{ height: 325, width: 420 }}
+              style={{ height: 325, width: 475 }}
             >
               <img
                 src={project_icon2}
                 alt=""
                 className="w-100 h-100 d-block"
-                style={{ objectFit: 'fill' }}   // key line
+                style={{ objectFit: 'contain' }}   // key line
               />
               
             </a>
@@ -173,15 +173,15 @@ function App() {
             </div>
            <div className="col card p-0 border-success" style={{backgroundColor: "#020403"}}>
             <a
-              href="https://github.com/nicklez5/spotify_backendvol2"
+              href="https://spotifyfrontend-3p4q.onrender.com"
               className="d-block  shadow rounded overflow-hidden"
-              style={{ height: 325, width: 420 }}
+              style={{ height: 325, width: 475 }}
             >
               <img
                 src={project_icon3}
                 alt=""
                 className="w-100 h-100 d-block"
-                style={{ objectFit: 'fill' }}   // key line
+                style={{ objectFit: 'contain' }}   // key line
               />
               
             </a>

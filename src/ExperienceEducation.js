@@ -4,7 +4,7 @@ import summitworksIcon from "./icons/summitworks.jpg"
 import ucrIcon from "./icons/ucr.png"
 const EXPERIENCE = [
   {
-    company: "Independent Developer",
+    company: "Summitworks",
     role: "Software Engineering Training Program",
     location: "New Jersey, NJ",
     start: "Jan. 2021",
@@ -18,7 +18,7 @@ const EXPERIENCE = [
       "Collaborated closely with full-stack developers and project stakeholders to ensure alignment with project goals and client expectations."
     ],
     tech: ["Django", "Javascript", "Python", "HTML", "CSS", "Docker", "AWS", "Angular"],
-    logo: "",
+    logo: summitworksIcon,
   }
 ];
 
