@@ -137,13 +137,13 @@ function App() {
             <a
               href="https://redditforum.onrender.com"
               className="d-block rounded overflow-hidden"
-              style={{ height: 325, width: 475 }}
+              style={{ aspectRatio: "16/9" }}
             >
               <img
                 src={project_icon}
                 alt=""
                 className="w-100 h-100 d-block"
-                style={{ objectFit: 'fill' }}   // key line
+                style={{ objectFit: 'cover' }}   // key line
               />
               
             </a>
@@ -156,13 +156,13 @@ function App() {
             <a
               href="https://canvasfrontend.onrender.com"
               className="d-block  animated_card rounded overflow-hidden"
-              style={{ height: 325, width: 475 }}
+              style={{ aspectRatio: "16/9" }}
             >
               <img
                 src={project_icon2}
                 alt=""
                 className="w-100 h-100 d-block"
-                style={{ objectFit: 'contain' }}   // key line
+                style={{ objectFit: 'cover' }}   // key line
               />
               
             </a>
@@ -173,18 +173,17 @@ function App() {
             </div>
            <div className="col card p-0 border-success" style={{backgroundColor: "#020403"}}>
             <a
-              href="https://spotifyfrontend-3p4q.onrender.com"
-              className="d-block  shadow rounded overflow-hidden"
-              style={{ height: 325, width: 475 }}
-            >
-              <img
-                src={project_icon3}
-                alt=""
-                className="w-100 h-100 d-block"
-                style={{ objectFit: 'contain' }}   // key line
-              />
-              
-            </a>
+            href="https://spotifyfrontend-3p4q.onrender.com"
+            className="d-block shadow rounded overflow-hidden"
+            style={{ aspectRatio: "16/9" }}
+          >
+            <img
+              src={project_icon3}
+              alt="Spotify project preview"
+              className="w-100 h-100 d-block"
+              style={{ objectFit: 'cover' }}
+            />
+          </a>
             <p className="d-flex text-center justify-content-center align-items-center text-success font-monospace">Spotify Application (WIP)</p>
             <hr/>    
             <p className="d-flex text-center justify-content-center align-items-center text-success font-monospace">Languages: Java, Typescript </p> 

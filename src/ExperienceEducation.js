@@ -5,7 +5,7 @@ import ucrIcon from "./icons/ucr.png"
 const EXPERIENCE = [
   {
     company: "Summitworks",
-    role: "Software Engineering Training Program",
+    role: "Software Developer",
     location: "New Jersey, NJ",
     start: "Jan. 2021",
     end: "Aug. 2021",
