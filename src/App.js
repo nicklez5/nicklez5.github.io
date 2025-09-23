@@ -4,7 +4,7 @@ import GH_icon from './icons/github_icon.png'
 import LI_icon from "./icons/linkedin_icon.png"
 import {Link} from "react-router-dom";
 import YH_icon from "./icons/yahoo.png"
-import project_icon from "./images/project2_finish.png";
+import project_icon from "./images/project1.png";
 import project_icon2 from "./images/project2.jpg";
 import project_icon3 from "./images/project3_finish.png";
 import BG_icon5 from "./images/background5.jpg"

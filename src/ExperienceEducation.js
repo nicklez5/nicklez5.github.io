@@ -2,10 +2,23 @@
 import { useState } from "react";
 import summitworksIcon from "./icons/summitworks.jpg"
 import ucrIcon from "./icons/ucr.png"
+import uberIcon from "./images/images3.png"
 const EXPERIENCE = [
   {
+    company: "Uber",
+    role: "Food Delivery ",
+    location: "Los Angeles,CA",
+    start: "March 2022",
+    end: "Sep 2024",
+    bullets: [
+      "Delivered food to 1,490 customers as a part time job on the friday-weekends while studying different frameworks/application(e.g Netlify, Redux, Firebase, React)"
+    ],
+    tech: ["Django", "Javascript", "Python", "HTML", "CSS", "Docker", "AWS", "Angular"],
+    logo: uberIcon
+  },
+  {
     company: "Summitworks",
-    role: "Software Developer",
+    role: "Software Developer Trainee",
     location: "New Jersey, NJ",
     start: "Jan. 2021",
     end: "Aug. 2021",
