@@ -38,7 +38,7 @@ const EXPERIENCE = [
     role: "Software Developer Trainee",
     location: "New Jersey, NJ",
     start: "Jan. 2021",
-    end: "Aug. 2021",
+    end: "Sep. 2021",
     bullets: [
       "Designed and crafted a user-friendly Angular application, ensuring an intuitive and engaging user experience.",
       "Developed the backend using Django Rest Framework, streamlining data handling and enabling efficient data exchange with the front end.",
