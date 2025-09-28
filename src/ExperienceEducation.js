@@ -3,18 +3,35 @@ import { useState } from "react";
 import summitworksIcon from "./icons/summitworks.jpg"
 import ucrIcon from "./icons/ucr.png"
 import uberIcon from "./images/images3.png"
+import csulaIcon from "./icons/csula_icon.png"
+import oneSkyIcon from "./icons/images.jpg"
 const EXPERIENCE = [
   {
-    company: "Uber",
-    role: "Food Delivery ",
+    company: "Opportunity Overview",
+    role: "Backend Developer",
+    location: "Remote",
+    start: "Sep 2025",
+    end: "Present",
+    bullets: [
+      "Design & document REST APIs in Node.js (Express) for daily impact metrics, partner/testimonial feeds, blog retrieval, and user action history; OpenAPI 3.0/Swagger docs, Joi/Zod validation, Supertest/Jest contract tests, rate limiting and ETag/Cache-Control.",
+      "Utilized PostgreSQL (Prisma/TypeORM/Sequelize): normalized schemas for EcoJourneys, Refills, Cleanups, Challenges with FKs, CHECK constraints, partial/BTREE/GiST indexes, and JSONB for flexible payloads; Liquibase/Prisma Migrate for migrations.",
+      "Implemented Quizzes, campaigns, report payloads: versioned quiz/campaign models (A/B variants), enum types, JSON schema validation, and content versioning; pre-computed materialized views/cached aggregates for reports.",
+    ],
+    tech: ["Node.JS", "Express"],
+    logo: oneSkyIcon,
+  },
+  {
+    company: "Uber Eats",
+    role: "Delivery Driver & Terminal caregiver",
     location: "Los Angeles,CA",
-    start: "March 2022",
+    start: "Dec 2021",
     end: "Sep 2024",
     bullets: [
-      "Delivered food to 1,490 customers as a part time job on the friday-weekends while studying different frameworks/application(e.g Netlify, Redux, Firebase, React)"
+      "Completed time-sensitive pickups and contactless deliveries, managing routing, customer communication, and cashless transactions to meet ETA targets.",
+      "Provided day-to-day care for a terminally ill relative, coordinating appointments, medications, and household needs.",
     ],
-    tech: ["Django", "Javascript", "Python", "HTML", "CSS", "Docker", "AWS", "Angular"],
-    logo: uberIcon
+    tech: [],
+    logo: uberIcon,
   },
   {
     company: "Summitworks",
@@ -28,23 +45,45 @@ const EXPERIENCE = [
       "Engineered a robust RESTful API that seamlessly connected the front end and backend, facilitating data transfer and user interactions.",
       "Implemented features, interactions, and dynamic content that enhanced the user experience, making the application highly responsive and user-friendly.",
       "Unit Testing and QA: Conducted thorough unit testing and quality assurance processes to guarantee the application's reliability and performance.",
-      "Collaborated closely with full-stack developers and project stakeholders to ensure alignment with project goals and client expectations."
+      "Collaborated closely with full-stack developers and project stakeholders to ensure alignment with project goals and client expectations.",
     ],
-    tech: ["Django", "Javascript", "Python", "HTML", "CSS", "Docker", "AWS", "Angular"],
+    tech: [
+      "Django",
+      "Javascript",
+      "Python",
+      "HTML",
+      "CSS",
+      "Docker",
+      "AWS",
+      "Angular",
+    ],
     logo: summitworksIcon,
-  }
+  },
 ];
 
 const EDUCATION = [
+  {
+    company: "Cal State University, Los Angeles",
+    role: "M.S. Computer Science",
+    location: "Los Angeles, CA",
+    start: "2026",
+    end: "2027",
+    bullets: ["GPA 3.4", "Coursework: Advanced Machine Learning"],
+    tech: ["Python"],
+    logo: csulaIcon,
+  },
   {
     company: "University of California, Riverside",
     role: "B.S. Computer Science",
     location: "Riverside, CA",
     start: "2018",
     end: "2020",
-    bullets: ["GPA 3.3", "Coursework: Algorithms, DBs, Networks, Artificial Intelligence, Machine Learning, Intermediate Embedded Systems"],
+    bullets: [
+      "GPA 3.3",
+      "Coursework: Algorithms, DBs, Networks, Artificial Intelligence, Machine Learning, Intermediate Embedded Systems",
+    ],
     tech: ["C++", "Java", "SQL"],
-    logo: ucrIcon
+    logo: ucrIcon,
   },
 ];
 
