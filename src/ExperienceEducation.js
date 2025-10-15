@@ -6,33 +6,7 @@ import uberIcon from "./images/images3.png"
 import csulaIcon from "./icons/csula_icon.png"
 import oneSkyIcon from "./icons/images.jpg"
 const EXPERIENCE = [
-  {
-    company: "Opportunity Overview",
-    role: "Backend Developer",
-    location: "Remote",
-    start: "Sep 2025",
-    end: "Present",
-    bullets: [
-      "Design & document REST APIs in Node.js (Express) for daily impact metrics, partner/testimonial feeds, blog retrieval, and user action history; OpenAPI 3.0/Swagger docs, Joi/Zod validation, Supertest/Jest contract tests, rate limiting and ETag/Cache-Control.",
-      "Utilized PostgreSQL (Prisma/TypeORM/Sequelize): normalized schemas for EcoJourneys, Refills, Cleanups, Challenges with FKs, CHECK constraints, partial/BTREE/GiST indexes, and JSONB for flexible payloads; Liquibase/Prisma Migrate for migrations.",
-      "Implemented Quizzes, campaigns, report payloads: versioned quiz/campaign models (A/B variants), enum types, JSON schema validation, and content versioning; pre-computed materialized views/cached aggregates for reports.",
-    ],
-    tech: ["Node.JS", "Express"],
-    logo: oneSkyIcon,
-  },
-  {
-    company: "Uber Eats",
-    role: "Delivery Driver & Terminal caregiver",
-    location: "Los Angeles,CA",
-    start: "Dec 2021",
-    end: "Sep 2024",
-    bullets: [
-      "Completed time-sensitive pickups and contactless deliveries, managing routing, customer communication, and cashless transactions to meet ETA targets.",
-      "Provided day-to-day care for a terminally ill relative, coordinating appointments, medications, and household needs.",
-    ],
-    tech: [],
-    logo: uberIcon,
-  },
+  
   {
     company: "Summitworks",
     role: "Software Developer Trainee",
